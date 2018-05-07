@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="statusBarColor">#F57C00</color>
+    <color name="textViewBackgroundColor">#e6e4e4</color>
+    <color name="colorblockColor1">#FF5722</color>
+    <color name="colorblockColor2">#2196F3</color>
+    <color name="colorblockColor3">#FF9800</color>
+    <color name="callButtonColor">#2196F3</color>
+    <color name="navigationBarColor">#403434</color>
+    <color name="textColor">@android:color/black</color>
+    <color name="textColor2">#FF5722</color>
+    <color name="colorAccent">#2196F3</color>
+</resources>

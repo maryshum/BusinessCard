@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mishk.businesscard.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:contentDescription="@string/pictureDescription"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/worker" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginEnd="100dp"
+        android:background="@color/textViewBackgroundColor"
+        android:paddingBottom="3dp"
+        android:text="@string/textOfTheName"
+        android:textAlignment="center"
+        android:textColor="@color/textColor2"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/textViewBackgroundColor"
+        android:text="@string/servicesDescription"
+        android:textAlignment="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginEnd="100dp"
+        android:paddingBottom="5dp"
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginEnd="150dp"
+        android:background="@color/colorblockColor1"
+        android:drawableLeft="@drawable/ic_schedule_white_36dp"
+        android:drawableStart="@drawable/ic_schedule_white_36dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="4dp"
+        android:paddingStart="4dp"
+        android:paddingRight="4dp"
+        android:paddingEnd="4dp"
+        android:paddingTop="10dp"
+        android:text="@string/colorBlockText1"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:id="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginEnd="150dp"
+        android:background="@color/colorblockColor2"
+        android:drawableLeft="@drawable/ic_email_white_36dp"
+        android:drawableStart="@drawable/ic_email_white_36dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="4dp"
+        android:paddingStart="4dp"
+        android:paddingRight="4dp"
+        android:paddingEnd="4dp"
+        android:paddingTop="10dp"
+        android:text="@string/email"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="sendConfideEmail"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginEnd="150dp"
+        android:background="@color/colorblockColor3"
+        android:drawableLeft="@drawable/ic_place_white_36dp"
+        android:drawableStart="@drawable/ic_place_white_36dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_vertical"
+        android:paddingBottom="10dp"
+        android:paddingLeft="4dp"
+        android:paddingStart="4dp"
+        android:paddingRight="4dp"
+        android:paddingEnd="4dp"
+        android:paddingTop="10dp"
+        android:text="@string/address"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="openMap"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="23dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="dialConfide"
+        app:srcCompat="@drawable/ic_phone_white_48dp" />
+</LinearLayout>
+</ScrollView>

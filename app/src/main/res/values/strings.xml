@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="textOfTheName">ConfideCo.</string>
+    <string name="servicesDescription">Repair and remodeling services \nin the DMV area</string>
+    <string name="colorBlockText1">Mon-Sun 9AM-7PM</string>
+    <string name="app_name">BusinessCard</string>
+    <string name="email">confideco@gmail.com</string>
+    <string name="address">Alexandria, VA, 22305</string>
+    <string name="pictureDescription">Iconic repairman in the sunglasses</string>
+</resources>
